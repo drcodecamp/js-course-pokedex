@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Rendering 01</title>
+        <link href="./style.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body onload="initPokemons()">
+        <h1 class="app-title">POKEDEX</h1>
+        <div class="app-options">
+            <h2>How many Pokemon's do you like to display? (1-898)</h2>
+            <label>
+                <input
+                    class="exercise-input"
+                    type="number"
+                    placeholder="Pokemons"
+                />
+            </label>
+        </div>
+        <div id="root" class="cards-container"></div>
+        <script src="index.js"></script>
+    </body>
+</html>
